@@ -1,8 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
-  '/sample.html',
-  '/sae.html'
+  '/sample.html'
 ];
 
 self.addEventListener('install', function(event) {
