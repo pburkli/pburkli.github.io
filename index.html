@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="styles.css">
     <script>
       if ('serviceWorker' in navigator) {
-        console.log('hoi');
-
         window.addEventListener('load', function() {
             navigator.serviceWorker.register('/sw.js').then(function(registration) {
             // Registration was successful
